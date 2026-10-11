@@ -1,0 +1,66 @@
+﻿Build started 15.05.2017 21:13:11.
+     1>Project "D:\Kowengo\Kowengo Tools (Windows C++)\Tools\using System;\using System;.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FUC:\Windows\System32\inetsrv\Microsoft.Web.Administration.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.ServiceProcess.dll /analyze- /errorReport:prompt /d1clr:nostdlib ..\env\Env.cpp "..\env\Ini.cpp" ..\env\Logger.cpp ..\env\MainCase.cpp ..\env\Networking.cpp ..\env\Services.cpp ..\env\Stdafx.cpp ..\env\Utils.cpp ..\env\Validations.cpp "..\using System;\networkmng.cpp"
+         Env.cpp
+     1>..\env\Env.cpp(122): warning C4101: 'e' : unreferenced local variable
+         Ini.cpp
+         Logger.cpp
+     1>..\env\Logger.cpp(19): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Logger.cpp(45): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Logger.cpp(73): warning C4101: 'e' : unreferenced local variable
+         MainCase.cpp
+         Networking.cpp
+     1>d:\kowengo\kowengo tools (windows c++)\tools\env\Networking.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Services.cpp
+     1>..\env\Services.cpp(26): warning C4101: 'e1' : unreferenced local variable
+     1>..\env\Services.cpp(47): warning C4101: 'e1' : unreferenced local variable
+     1>..\env\Services.cpp(67): warning C4101: 'e' : unreferenced local variable
+         Stdafx.cpp
+         Utils.cpp
+     1>..\env\Utils.cpp(30): warning C4101: 'ex' : unreferenced local variable
+     1>..\env\Utils.cpp(34): warning C4101: 'ex' : unreferenced local variable
+     1>..\env\Utils.cpp(72): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(89): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(123): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(171): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(215): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(240): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(260): warning C4101: 'e1' : unreferenced local variable
+     1>..\env\Utils.cpp(280): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(307): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(325): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(375): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(426): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(440): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Utils.cpp(453): warning C4101: 'e' : unreferenced local variable
+         Validations.cpp
+     1>..\env\Validations.cpp(20): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Validations.cpp(33): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Validations.cpp(58): warning C4101: 'e1' : unreferenced local variable
+     1>..\env\Validations.cpp(114): warning C4101: 'e' : unreferenced local variable
+     1>..\env\Validations.cpp(148): warning C4101: 'e' : unreferenced local variable
+         networkmng.cpp
+     1>d:\kowengo\kowengo tools (windows c++)\tools\using system;\../env/Networking.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>..\using System;\networkmng.cpp(31): warning C4101: 'e1' : unreferenced local variable
+     1>..\using System;\networkmng.cpp(131): warning C4101: 'e' : unreferenced local variable
+     1>..\using System;\networkmng.cpp(166): warning C4101: 'e' : unreferenced local variable
+     1>..\using System;\networkmng.cpp(278): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kowengo\Kowengo Tools (Windows C++)\Tools\Debug\using System;.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Kowengo\Kowengo Tools (Windows C++)\Tools\Debug\using System;.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Env.obj
+         "Debug\Ini.obj"
+         Debug\Logger.obj
+         Debug\MainCase.obj
+         Debug\Networking.obj
+         Debug\Services.obj
+         Debug\Stdafx.obj
+         Debug\Utils.obj
+         Debug\Validations.obj
+         Debug\networkmng.obj
+     1>LINK : fatal error LNK1561: entry point must be defined
+     1>Done Building Project "D:\Kowengo\Kowengo Tools (Windows C++)\Tools\using System;\using System;.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32
